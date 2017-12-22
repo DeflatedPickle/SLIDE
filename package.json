@@ -2,13 +2,15 @@
   "name": "SLIDE",
   "version": "1.0.0",
   "description": "An IDE platform.",
-
   "main": "main.js",
-
+  "scripts": {
+    "dev": "webpack -d --watch",
+    "prod": "webpack -p"
+  },
   "author": "DeflatedPickle",
   "license": "MIT",
-
   "dependencies": {
-    "electron": "^1.7.6"
+    "electron": "^1.7.6",
+    "webpack": "^3.10.0"
   }
 }
