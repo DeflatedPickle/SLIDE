@@ -1,0 +1,14 @@
+{
+  "name": "SLIDE",
+  "version": "1.0.0",
+  "description": "An IDE platform.",
+
+  "main": "main.js",
+
+  "author": "DeflatedPickle",
+  "license": "MIT",
+
+  "dependencies": {
+    "electron": "^1.7.6"
+  }
+}
