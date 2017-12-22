@@ -1,0 +1,2 @@
+# SLIDE
+An IDE platform.
