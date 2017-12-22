@@ -15,6 +15,10 @@ module.exports = {
                     fallback: "style-loader",
                     use: ["css-loader", "sass-loader"]
                 })
+            },
+            {
+                test: /\.pug$/,
+                use: ["html-loader", "pug-html-loader"]
             }
         ]
     },
@@ -25,7 +29,7 @@ module.exports = {
                 collapseWhitespace: true
             },
             hash: true,
-            template: "./src/index.html"
+            template: "./src/index.pug"
         }),
 
         new ExtractTextPlugin("index.css")
