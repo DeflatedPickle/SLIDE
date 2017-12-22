@@ -2,10 +2,10 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
 
 module.exports = {
-    entry: "./src/index.js",
+    entry: "./src/index.ts",
     output: {
         path: __dirname + "/dist",
-        filename: "app.bundle.js"
+        filename: "bundle.js"
     },
     module: {
         rules: [
@@ -19,8 +19,16 @@ module.exports = {
             {
                 test: /\.pug$/,
                 use: ["html-loader", "pug-html-loader"]
+            },
+            {
+                test: /\.ts$/,
+                use: "ts-loader",
+                exclude: /node_modules/
             }
         ]
+    },
+    resolve: {
+        extensions: [".tsx", ".ts", ".js"]
     },
     plugins: [
         new HtmlWebpackPlugin({
