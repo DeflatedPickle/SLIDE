@@ -3,24 +3,34 @@ An IDE platform.
 
 # Plugins
 ### Languages
-- Python
-- Ruby
-- Lua
-- Go
-- Rust
-- C
-- C++
-- Java
-- Scala
-- Mirah
+| Name   |
+| ------ |
+| Python |
+| Ruby   |
+| Lua    |
+| Go     |
+| Rust   |
+| C      |
+| C++    |
+| Java   |
+| Scala  |
+| Mirah  |
 
 ### Version Control
 - Git
 
 ### Build Automation
-- Gradle
-- Maven
-- Ant
+| Name   |
+| ------ |
+| Gradle |
+| Maven  |
+| Ant    |
+
+### Other
+| Name         | Description |
+| ------------ | ----------- |
+| Byteview     | Shows Bytecode values next to the encoding. |
+| Carrat Wheel | Places a carret at the point of the cursor. More are placed with movement |
 
 ## IDEs
 | Name  | Language | Plugins |
