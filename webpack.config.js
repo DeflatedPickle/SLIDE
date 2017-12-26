@@ -2,6 +2,7 @@ var HtmlWebpackPlugin = require('html-webpack-plugin');
 var ExtractTextPlugin = require("extract-text-webpack-plugin");
 
 module.exports = {
+    target: "node",
     entry: "./src/ts/index.ts",
     output: {
         path: __dirname + "/dist",
@@ -28,7 +29,7 @@ module.exports = {
         ]
     },
     resolve: {
-        extensions: [".tsx", ".ts", ".js"]
+        extensions: [".ts", ".js"]
     },
     plugins: [
         new HtmlWebpackPlugin({
@@ -41,5 +42,11 @@ module.exports = {
         }),
 
         new ExtractTextPlugin("index.css")
-    ]
+    ],
+    node: {
+        console: false,
+        fs: 'empty',
+        net: 'empty',
+        tls: 'empty'
+    }
 };

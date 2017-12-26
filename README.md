@@ -17,7 +17,9 @@ An IDE platform.
 | Mirah  |
 
 ### Version Control
-- Git
+| Name |
+| ---- |
+| Git  |
 
 ### Build Automation
 | Name   |
@@ -30,7 +32,8 @@ An IDE platform.
 | Name         | Description |
 | ------------ | ----------- |
 | Byteview     | Shows Bytecode values next to the encoding. |
-| Carrat Wheel | Places a carret at the point of the cursor. More are placed with movement |
+| Carrat Wheel | Places a carret at the point of the cursor. More are placed with movement. |
+| Dropped      | Drag and drop files. |
 
 ## IDEs
 | Name  | Language | Plugins |

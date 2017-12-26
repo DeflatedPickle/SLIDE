@@ -1,3 +1,2 @@
 const css = require("../scss/index.scss");
-
-console.log("Cool.");
+const plugins = require("./plugins.ts");
