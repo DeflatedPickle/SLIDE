@@ -34,6 +34,7 @@ An IDE platform.
 | Byteview     | Shows Bytecode values next to the encoding. |
 | Carrat Wheel | Places a carret at the point of the cursor. More are placed with movement. |
 | Dropped      | Drag and drop files. |
+| Lang Expander | Expands things like "!" and "==" to "not" and "equals". |
 
 ## IDEs
 | Name  | Language | Plugins |
